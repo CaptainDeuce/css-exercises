@@ -11,3 +11,9 @@
 .number-three {
     font-size: 24px;
 }
+
+#second-id {
+    background-color: rgb(117, 216, 117);
+    font-size: 24px;
+    font-weight: bold;
+}
