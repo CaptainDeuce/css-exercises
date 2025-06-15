@@ -27,6 +27,7 @@ input {
 
 a {
   text-decoration: none;
+  color: gray;
 }
 
 ul {
@@ -36,4 +37,10 @@ ul {
 .footer {
   background-color: #eeeeee;
   display: flex;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
 }
