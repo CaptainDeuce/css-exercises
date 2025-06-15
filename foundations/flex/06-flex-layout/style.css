@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  padding: 0;
 }
 
 img {
@@ -36,11 +37,15 @@ ul {
 
 .header {
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .footer {
   background-color: #eeeeee;
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .left-links,
