@@ -4,11 +4,6 @@ body {
   min-height: 100vh;
 }
 
-.body-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .header {
   height: 72px;
   background: darkmagenta;
@@ -28,6 +23,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+}
+
+.body-container {
+  display: flex;
 }
 
 .sidebar {
@@ -54,11 +53,16 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  flex: 1 1 auto;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
 }
 
 .all-cards {
   padding: 48px;
   flex-wrap: wrap;
   display: flex;
+  justify-content: flex-end;
+  gap: 25px;
 }
