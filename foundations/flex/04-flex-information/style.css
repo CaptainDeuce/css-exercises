@@ -12,6 +12,31 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
+}
+
+.image-one {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.image-two {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.image-three {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.image-four {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
